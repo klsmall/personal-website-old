@@ -90,14 +90,10 @@ nav li a {
 	color: #b2d8d8;
 }
 
-
 .flex-containter {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-.flex-containter a {
-  text-decoration: none;
 }
 
 .flex-box {
@@ -110,6 +106,7 @@ nav li a {
   border-radius: 1px;
   border: 1px solid teal;
 }
+
 .flex-box i {
   color: teal;
   font-size: 30px;
@@ -117,18 +114,18 @@ nav li a {
   border-radius: 80px;
   border: 1px solid teal;
 }
+
 .flex-box p {
   color: teal;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Josefin Slab', serif;
   font-size: 20px;
 }
+
 .flex-box .description {
   color: black;
   margin-top: 30px;
   font-size: 16px;
 }
-
-
 
 .form-box label {
   size: 2px;
