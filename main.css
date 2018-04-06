@@ -1,68 +1,68 @@
 @charset "ISO-8859-1";
 html {
-  margin: 40px;
-  font-family: 'Lato', sans-serif;
+	margin: 40px;
+	font-family: 'Lato', sans-serif;
 }
 
 nav {
-  position: fixed;
-  width: 100%;
-  height: 50px;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  background: white;
-  text-align: right;
-  font-family: 'Lato', sans-serif;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	top: 0;
+  	left: 0;
+  	z-index: 100;
+	background: white;
+	text-align: right;
+	font-family: 'Lato', sans-serif;
 }
 nav ul {
-  list-style-type: none;
-  margin: 15px;
-  padding: 0;
+	list-style-type: none;
+	margin: 15px;
+	padding: 0;
 }
 nav li {
-  display: inline;
+  	display: inline;
 }
 nav a {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
 }
 nav li a {
-  text-decoration: none;
-  color: teal;
-  padding: 15px;
+  	text-decoration: none;
+  	color: teal;
+  	padding: 15px;
 }
 
 .landing {
-  padding: 100px;
-  text-align: center;
+  	padding: 100px;
+  	text-align: center;
 }
 .landing h1 {
-  font-family: 'Josefin Slab', serif;
-  font-size: 70px;
-  color: teal;
-  margin: 10px;
+	font-family: 'Josefin Slab', serif;
+  	font-size: 70px;
+  	color: teal;
+  	margin: 10px;
 }
 .landing h3 {
-  font-size: 15px;
-  font-weight: 200;
-  font-family: 'Lato', sans-serif;
+  	font-size: 15px;
+  	font-weight: 200;
+  	font-family: 'Lato', sans-serif;
 }
 .landing button {
-  font-family: 'Josefin Slab', serif;
-  border: 2px solid teal;
-  background-color: transparent;
-  color: teal;
-  border-radius: 4px;
-  padding: 10px;
-  transition-duration: 0.4s;
-  font-size: 30px;
+	font-family: 'Josefin Slab', serif;
+  	border: 2px solid teal;
+  	background-color: transparent;
+  	color: teal;
+  	border-radius: 4px;
+  	padding: 10px;
+  	transition-duration: 0.4s;
+  	font-size: 30px;
 }
 .landing button:hover {
-  background-color: teal;
-  border: 2px solid teal;
-  color: white;
+  	background-color: teal;
+  	border: 2px solid teal;
+  	color: white;
 }
 
 .content-wrap {
@@ -90,80 +90,42 @@ nav li a {
 	color: #b2d8d8;
 }
 
-.flex-containter {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.flex-box {
-  background: white;
-  width: 300px;
-  height: 390px;
-  padding: 30px;
-  margin-top: 20px;
-  text-align: center;
-  border-radius: 1px;
-  border: 1px solid teal;
-}
-
-.flex-box i {
-  color: teal;
-  font-size: 30px;
-  padding: 30px;
-  border-radius: 80px;
-  border: 1px solid teal;
-}
-
-.flex-box p {
-  color: teal;
-  font-family: 'Josefin Slab', serif;
-  font-size: 20px;
-}
-
-.flex-box .description {
-  color: black;
-  font-family: 'Lato', sans-serif;
-  margin-top: 30px;
-  font-size: 16px;
-}
-
 .form-box label {
-  size: 2px;
+  	size: 2px;
 }
 .form-box input {
-  width: 20%;
-  padding: 10px;
+  	width: 20%;
+  	padding: 10px;
 }
 .form-box textarea {
-  width: 20%;
-  padding: 10px;
+  	width: 20%;
+  	padding: 10px;
 }
 
 footer {
-  margin-top: 100px;
-  text-align: center;
+  	margin-top: 100px;
+  	text-align: center;
 }
 footer .credit {
-  font-size: 20px;
+  	font-size: 20px;
 }
 footer ul {
-  list-style-type: none;
-  padding: 0;
+  	list-style-type: none;
+  	padding: 0;
 }
 footer li {
-  display: inline;
+  	display: inline;
 }
 footer a {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
 }
 footer li a {
-  text-decoration: none;
-  color: teal;
-  padding-right: 12px;
+  	text-decoration: none;
+  	color: teal;
+  	padding-right: 12px;
 }
 footer i {
-  font-size: 20px;
+	font-size: 20px;
 }
