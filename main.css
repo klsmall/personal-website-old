@@ -90,6 +90,44 @@ nav li a {
 	color: #b2d8d8;
 }
 
+.flex-containter {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.flex-box {
+	background: white;
+	width: 300px;
+	height: 390px;
+	padding: 30px;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 1px;
+	border: 1px solid teal;
+}
+
+.flex-box i {
+	color: teal;
+	font-size: 30px;
+	padding: 30px;
+	border-radius: 80px;
+	border: 1px solid teal;
+}
+
+.flex-box p {
+	color: teal;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+}
+
+.flex-box .description {
+	color: black;
+	font-family: 'Lato', sans-serif;
+	margin-top: 30px;
+	font-size: 16px;
+}
+
 .form-box label {
   	size: 2px;
 }
