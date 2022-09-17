@@ -1,4 +1,4 @@
-# klsmall.github.io
-(WORK IN PROGRESS) My personal website made using HMTL/CSS and JavaScript. 
+# personal-website-old
+The old version of my personal website, which I built in college using HMTL/CSS and JavaScript. 
 
-View my website [here](https://klsmall.github.io/).
+View the website [here](https://klsmall.github.io/personal-website-old).
